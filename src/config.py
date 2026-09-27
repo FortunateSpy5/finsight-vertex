@@ -12,6 +12,7 @@ class Settings:
     PROJECT_ID: str = os.getenv("GCP_PROJECT_ID", "divine-tempo-509920-t3")
     LOCATION: str = os.getenv("GCP_LOCATION", "us-central1")
     DOCUMENTAI_LOCATION: str = os.getenv("DOCUMENTAI_LOCATION", "us")
+    DOCUMENTAI_PROCESSOR_ID: str = os.getenv("DOCUMENTAI_PROCESSOR_ID", "a775315cd85516ac")
 
     # Cloud Storage Lakehouse
     BUCKET_NAME: str = os.getenv(
